@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/favicon.ico">
+<link rel="icon" type="image/png" href="../assets/img/favicon.ico">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<title>郑州大学开源镜像站 Docs</title>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
+    
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,600,700" rel="stylesheet">
+    
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+<!-- Main CSS -->
+<link href="../assets/css/main.css" rel="stylesheet"/>
+    
+<!-- Animation CSS -->
+<link href="../assets/css/vendor/aos.css" rel="stylesheet"/>
+    
+<!-- Docs CSS -->
+<link href="../assets/css/vendor/bootstrap-toc.css" rel="stylesheet"/>
+<link href="../assets/css/vendor/prism.css" rel="stylesheet"/>
+    
+</head>
+    
+<body>  
+    
+    
+<!----------------------------------------------------------------------
+End fixed sidebar
+------------------------------------------------------------------------>
+
+<nav id="toc" class="fixedsidebar d-none d-lg-block">   
+    <h5 class="mt-4 mb-4 pt-1"><a class="text-dark" href="../index.html"><strong>郑州大学开源镜像站</strong> Docs</a></h5>
+</nav>
+    
+<!----------------------------------------------------------------------
+End fixed sidebar
+------------------------------------------------------------------------> 
+    
+       
+<main class="content-withfixedsidebar">
+    
+    
+<!----------------------------------------------------------------------
+NAVBAR (remove topnav if you don't want changed nav background on scroll)
+------------------------------------------------------------------------>
+<nav class="topnav navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+<div class="container">
+	<a class="navbar-brand d-lg-none" href="../index.html"><i class="fas fa-anchor mr-2"></i><strong>郑州大学开源镜像站</strong> Docs</a>
+	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="navbar-collapse collapse" id="navbarColor02">
+		<ul class="navbar-nav mr-auto d-flex align-items-center">
+			<li class="nav-item">
+			<a class="nav-link" href="../index.html">首页</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../mirrors.html">镜像项目列表</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="../docs.html">Docs</a>
+			</li>
+            <li class="d-lg-none nav-item">
+            </li>
+		</ul>
+		<ul class="navbar-nav ml-auto d-flex align-items-center">
+			<li class="nav-item">
+			<span class="nav-link" href="#">
+			<a class="btn btn-cyan btn-round shadow-sm" href="../login.html" >
+								注册/登录 
+			</a>
+			</span>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!-- End Navbar -->
+    
+<!-------------------------------------
+HEADER
+--------------------------------------->
+<div class="jumbotron jumbotron-lg jumbotron-fluid jumbotron-lg-withnav mb-3 bg-primary position-relative">
+	<div class="container text-white h-100 tofront">
+		<div class="row align-items-center justify-content-center text-center">
+			<div class="col-md-10">
+				<h1 class="display-3">Debian 源使用帮助</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<!--- END HEADER -->
+
+<!-- DOCS CONTENT -->
+<div class="container pt-5 pb-5 mb-5">
+	<div class="row justify-content-center">
+      
+<div class="col-lg-11">
+<div id="docsarea" class="font-weight-normal">
+
+    
+<!----------------------------------------------------------------------
+Doc主体
+------------------------------------------------------------------------>
+<section id="debian">
+	<h1>Debian 源使用帮助<a class="headerlink" href="#debian" title="此标题的永久链接"></a></h1>
+	<section id="id1">
+	<h2>地址<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h2>
+	<p><a class="reference external" href="https://mirrors.zzu.edu.cn/debian/">https://mirrors.zzu.edu.cn/debian/</a></p>
+	</section>
+	<section id="id2">
+	<h2>说明<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
+	<p>Debian 软件源</p>
+	</section>
+	<section id="id3">
+	<h2>收录架构<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
+	<p>Debian 支持的所有架构，如 AMD64 (x86_64), Intel x86, ARM, MIPS, ppc64el, s390x 等</p>
+	</section>
+	<section id="id4">
+	<h2>收录版本<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
+	<p>Debian Old Stable, Stable, Testing, Unstable(sid)</p>
+	<p>当前 Stable 为 Debian 11，代号为 Bullseye</p>
+	</section>
+	<section id="id5">
+	<h2>使用说明<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h2>
+	<div class="alert alert-danger", role="alert">
+		<h4>警告</h4>
+		<p>操作前请做好相应备份</p>
+	</div>
+	<p>一般情况下，将 <code class="file docutils literal notranslate"><span class="pre">/etc/apt/sources.list</span></code> 文件中 Debian 默认的源地址 <code class="docutils literal notranslate"><span class="pre">http://deb.debian.org/</span></code>
+	替换为 <code class="docutils literal notranslate"><span class="pre">http://mirrors.zzu.edu.cn</span></code> 即可。</p>
+	<p>可以使用如下命令：</p>
+
+	<code class="language-markup">sudo sed -i 's/deb.debian.org/mirrors.zzu.edu.cn/g' /etc/apt/sources.list</code>
+
+	<p>当然也可以直接编辑 <code class="file docutils literal notranslate"><span class="pre">/etc/apt/sources.list</span></code> 文件（需要使用 sudo）。以下是 Ubuntu 22.04 参考配置内容：</p>
+	<pre class="language-markup"><code class="language-markup"><span class="token comment"></span>
+deb http://mirrors.zzu.edu.cn/debian stable main contrib non-free
+# deb-src http://mirrors.zzu.edu.cn/debian stable main contrib non-free
+deb http://mirrors.zzu.edu.cn/debian stable-updates main contrib non-free
+# deb-src http://mirrors.zzu.edu.cn/debian stable-updates main contrib non-free
+
+# deb http://mirrors.zzu.edu.cn/debian stable-proposed-updates main contrib non-free
+# deb-src http://mirrors.zzu.edu.cn/debian stable-proposed-updates main contrib non-free
+	</code>
+	</pre>
+		
+	<div class="alert alert-info">
+	<h4>小技巧</h4>
+	<p>目前 Debian testing (bookworm) 与 sid 添加了非自由固件组件 <code class="docutils literal notranslate"><span class="pre">non-free-firmware</span></code>。
+	如果正在使用 testing 或 sid，并且需要使用非自由固件，则在编辑配置时需要添加 <code class="docutils literal notranslate"><span class="pre">non-free-firmware</span></code>。
+	详情参考 <a class="reference external" href="https://wiki.debian.org/Firmware">https://wiki.debian.org/Firmware</a> 与 <a class="reference external" href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1030189">Debian bug #1030189</a>。</p>
+	</div>
+	<p>同时你也可能需要更改 Debian Security 源，请参考 <a class="reference internal" href="debian-security.html"><span class="doc">Debian Security 源使用帮助</span></a></p>
+	<p>更改完 <code class="file docutils literal notranslate"><span class="pre">sources.list</span></code> 文件后请运行 <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">update</span></code> 更新索引以生效。</p>
+	<div class="admonition tip">
+	<p class="admonition-title">小技巧</p>
+	<p>使用 HTTPS 可以有效避免国内运营商的缓存劫持，但需要事先安装 <code class="docutils literal notranslate"><span class="pre">apt-transport-https</span></code> (Debian Buster
+	及以上版本不需要)。</p>
+	</div>
+	<div class="alert alert-danger", role="alert">
+		<h4>警告</h4>
+	<p>在 apt 2.1.9 及以后的版本中，apt 的 HTTP Pipelining 特性与 Nginx 服务器疑似存在一定的不兼容问题，可能导致高带宽从镜像站下载大量软件包
+	（例如系统升级）时出现偶发的 Connection reset by peer 错误
+	（详见 <a class="reference external" href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=973581">Debian bug #973581</a>）。</p>
+	<p>目前，用户可以通过关闭 HTTP Pipelining 特性解决此问题。
+	如果需要关闭，可以在使用 <code class="docutils literal notranslate"><span class="pre">apt</span></code> 命令时加上 <code class="docutils literal notranslate"><span class="pre">-o</span> <span class="pre">Acquire::http::Pipeline-Depth=0</span></code> 参数，
+	或使用以下命令将相关设置加入 apt 系统配置中：</p>
+	<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">echo</span> <span class="s2">"Acquire::http::Pipeline-Depth </span><span class="se">\"</span><span class="s2">0</span><span class="se">\"</span><span class="s2">;"</span> <span class="o">&gt;</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">apt</span><span class="o">/</span><span class="n">apt</span><span class="o">.</span><span class="n">conf</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="mi">99</span><span class="n">nopipelining</span>
+	</pre></div>
+	</div>
+	</div>
+	</section>
+	<section id="id7">
+	<h2>相关链接<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h2>
+	<dl class="field-list simple">
+	<dt class="field-odd">官方主页<span class="colon">:</span></dt>
+	<dd class="field-odd"><p><a class="reference external" href="https://www.debian.org/">https://www.debian.org/</a></p>
+	</dd>
+	<dt class="field-even">邮件列表<span class="colon">:</span></dt>
+	<dd class="field-even"><p><a class="reference external" href="https://www.debian.org/MailingLists/">https://www.debian.org/MailingLists/</a></p>
+	</dd>
+	<dt class="field-odd">Wiki<span class="colon">:</span></dt>
+	<dd class="field-odd"><p><a class="reference external" href="https://wiki.debian.org/">https://wiki.debian.org/</a></p>
+	</dd>
+	<dt class="field-even">文档<span class="colon">:</span></dt>
+	<dd class="field-even"><p><a class="reference external" href="https://www.debian.org/doc/">https://www.debian.org/doc/</a></p>
+	</dd>
+	<dt class="field-odd">镜像列表<span class="colon">:</span></dt>
+	<dd class="field-odd"><p><a class="reference external" href="https://www.debian.org/mirror/list">https://www.debian.org/mirror/list</a></p>
+	</dd>
+	</dl>
+	</section>
+	</section>
+<!--------------------------------------
+FOOTER
+--------------------------------------->
+<footer class="bg-light pb-5 pt-4">
+<div class="container">
+	<div class="row justify-content-center text-center">
+		<div class="col-md-12">			
+			<span class="d-block mt-3 text-muted">©
+			<script>document.write(new Date().getFullYear())</script>
+			 郑州大学开源镜像站 <a target="_blank" href="https://mirrors.zzu.edu.cn">mirrors.zzu.edu.cn</a>. <br/></span>
+		</div>
+	</div>
+</div>
+</footer>
+    
+    
+</main>
+<!--- end main -->
+    
+    
+<!--------------------------------------
+JAVASCRIPTS
+--------------------------------------->    
+<script src="../assets/js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/js/vendor/popper.min.js" type="text/javascript"></script>
+<script src="../assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/js/functions.js" type="text/javascript"></script>
+    
+<!-- Docs -->
+<script src="../assets/js/vendor/prism.js" type="text/javascript"></script>
+<script src="../assets/js/vendor/bootstrap-toc.js" type="text/javascript"></script>
+<script>
+    $(function() {
+      new ClipboardJS('.btn');
+      var navSelector = '#toc';
+      var $myNav = $(navSelector);
+      Toc.init({
+          $nav: $('#toc'),
+          $scope: $('#docsarea')
+        });
+      $('body').scrollspy({
+        target: navSelector
+      });        
+    });
+</script>
+
+    
+<!-- Animation -->
+<script src="../assets/js/vendor/aos.js" type="text/javascript"></script>
+<noscript>
+    <style>
+        *[data-aos] {
+            display: block !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+    </style>
+</noscript>
+<script>
+    AOS.init({
+        duration: 700
+    });
+</script>
+ 
+<!-- Disable animation on less than 1200px, change value if you like -->
+<script>
+AOS.init({
+  disable: function () {
+    var maxWidth = 1200;
+    return window.innerWidth < maxWidth;
+  }
+});
+</script>
+    
+<!-- Tooltips -->
+<script> $(function () { $('[data-toggle="tooltip"]').tooltip() }) </script>
+    
+<!-- Popovers -->    
+<script> 
+$(function () {
+$('[data-toggle="popover"]').popover()
+})
+$('.popover-dismiss').popover({
+  trigger: 'focus'
+})
+</script>
+
+</body>
+</html>
