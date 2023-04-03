@@ -21,7 +21,6 @@ Powered BY <a target="_blank" href="https://mirrors.zzu.edu.cn">ZZU OpenSource M
 
 Supported BY <a target="_blank" href="https://www.zzu.edu.cn">Zhengzhou University</a>
 
-Copyright (C) 2023 WowThemes.net.
 
 <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
