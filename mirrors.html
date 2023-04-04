@@ -58,7 +58,12 @@ NAVBAR
 			</ul>
 			<ul class="navbar-nav ml-auto d-flex align-items-center">
 
-	
+				<li class="nav-item">
+					<button type="button" class="btn btn-secondary mr-2 mb-0" data-toggle="modal" data-target="#exampleModalLong" >
+						近期动态 <span class="badge badge-info ml-2">2</span>
+					</button>
+				</li>
+				
 				<li class="nav-item">
 				<span class="nav-link" href="#">
 				<a class="btn btn-cyan btn-round shadow-sm" href="./login.html" >
@@ -373,6 +378,31 @@ AOS.init({
   }
 });
 </script>
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLongTitle">近期动态通知</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span>×</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<h5>停机通知</h5>
+				<p>
+					将于2023/4/1日停机，预计维护3天！
+				</p>
 
+				<h5>Docker-ce镜像即将上线</h5>
+				<p>
+					Docker-ce镜像在停机维护后会上线，文档正在完善中
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
 </html>
