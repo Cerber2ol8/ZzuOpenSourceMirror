@@ -1,10 +1,37 @@
 # ZzuOpenSourceMirror 
-郑州大学开源镜像站是由郑州大学xxxx维护的一个开源软件镜像站点。
+郑州大学开源镜象站旨在为校内用户提供更加便捷，稳定，快速的镜像服务。 同时，我们希望借此机会推广 Linux，以及宣传自由软件的价值。欢迎广大师生加入共同建设。（https://mirrors.zzu.edu.cn）
+```
+ZzuOpenSourceMirror
+├─assets
+│  ├─css
+│  │  └─vendor
+│  ├─img
+│  │  ├─demo
+│  │  └─logo
+│  ├─js
+│  │  └─vendor
+│  └─scss
+│      ├─frameworks
+│      │  └─bootstrap
+│      │      └─source
+│      │          ├─mixins
+│      │          └─utilities
+│      ├─plugins
+│      ├─base
+│      ├─modules
+│      └─layout
+└─docs
+└─docs.html
+└─index.html
+└─info.html
+└─login.html
+└─mirrors.html
+└─README.html
+```
 
 [样例](https://github.com/Cerber2ol8/ZzuOpenSourceMirror) &nbsp; | &nbsp; [下载](https://github.com/Cerber2ol8/ZzuOpenSourceMirror/archive/refs/heads/main.zip)
 
-[![screenshot](assets/img/demo/readme1.jpg)](https://github.com/Cerber2ol8/ZzuOpenSourceMirror)
-[![screenshot](assets/img/demo/readme2.jpg)](https://github.com/Cerber2ol8/ZzuOpenSourceMirror)
+[![screenshot](./assets/img/logo/screenshot1.png)](https://github.com/Cerber2ol8/ZzuOpenSourceMirror)
 
 ## Getting Started
 
