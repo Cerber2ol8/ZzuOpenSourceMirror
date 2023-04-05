@@ -49,39 +49,57 @@ End fixed sidebar
 <!----------------------------------------------------------------------
 NAVBAR (remove topnav if you don't want changed nav background on scroll)
 ------------------------------------------------------------------------>
-<nav class="topnav navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-<div class="container">
-	<a class="navbar-brand d-lg-none" href="./index.html"><i class="fas fa-anchor mr-2"></i><strong>郑州大学开源镜像站</strong> Docs</a>
-	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="navbar-collapse collapse" id="navbarColor02">
-		<ul class="navbar-nav mr-auto d-flex align-items-center">
-			<li class="nav-item">
-			<a class="nav-link" href="./index.html">首页</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="./mirrors.html">镜像项目列表</a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="./docs.html">Docs</a>
-			</li>
-            <li class="d-lg-none nav-item">
-            </li>
-		</ul>
-		<ul class="navbar-nav ml-auto d-flex align-items-center">
-			<li class="nav-item">
-			<span class="nav-link" href="#">
-			<a class="btn btn-cyan btn-round shadow-sm" href="./login.html" >
-								注册/登录 
-			</a>
-			</span>
-			</li>
-		</ul>
-
+<nav class=" navbar topnav navbar-expand-lg navbar-dark bg-primary fixed-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="./index.html"><strong>郑州大学开源镜像站</strong></a>
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse" id="navbarColor02" style="">
+			<ul class="navbar-nav mr-auto d-flex align-items-center">
+				<li class="nav-item">
+				<a class="nav-link" href="./mirrors.html">镜像列表</a>
+				</li>
+				<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				国产开源OS </a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="https://www.openeuler.org/zh/">OpenEuler</a>
+					<a class="dropdown-item" href="https://www.openkylin.top/index-cn.html">OpenKylin</a>
+					<a class="dropdown-item" href="https://www.deepin.org">Deepin</a>
+					<a class="dropdown-item" href="https://www.ubuntukylin.com/">UKylin</a>
+					<a class="dropdown-item" href="https://www.opencloudos.org/">OpenCloudOS</a>
+					<a class="dropdown-item" href="https://fydeos.com/">FydeOS</a>
+					<a class="dropdown-item" href="https://openanolis.cn/anolisos">AnolisOS</a>
+					<a class="dropdown-item" href="https://www.loongson.cn/system/loongnix">Loongnix</a>
+				</div>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="./docs.html">简介与帮助</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./info.html">关于</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto d-flex align-items-center">
+				<li class="nav-item">
+					<button type="button" class="btn btn-secondary mr-2 mb-0" data-toggle="modal" data-target="#exampleModalLong" >
+						近期动态 <span class="badge badge-info ml-2">2</span>
+					</button>
+				</li>
+	
+				<li class="nav-item">
+				<span class="nav-link" href="#">
+				<a class="btn btn-cyan btn-round shadow-sm"  href="./login.html" >注册/登录 </a>
+				</a>
+				</span>
+				</li>
+			</ul>
+		</div>
 	</div>
-</div>
-</nav>
+	</nav>
+
+
 <!-- End Navbar -->
     
 <!-------------------------------------
