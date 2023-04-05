@@ -9362,6 +9362,9 @@ a {
 .overlay-blue:before {
   background-color: rgba(23, 29, 90, 0.5); }
 
+.overlay-purple:before {
+  background-color: rgba(171, 106, 233, 0.3); }
+
 .bg-primary {
   fill: #502c6c !important; }
 
