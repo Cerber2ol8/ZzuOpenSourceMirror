@@ -1,62 +1,73 @@
-# ZzuOpenSourceMirror 
-郑州大学开源镜象站旨在为校内用户提供更加便捷，稳定，快速的镜像服务。 同时，我们希望借此机会推广 Linux，以及宣传自由软件的价值。欢迎广大师生加入共同建设。（https://mirrors.zzu.edu.cn）
+<h1 align="center">ZzuOpenSourceMirror</h1>
+<br/>
+
+## 项目说明
+
+    开源镜像站是提供了许多开源软件的源代码和发行安装包的镜像，供用户下载和使用。由于大多数开源项目的源服务器位于国外，没有国内的服务器，有时候一些国外的开源软件网站访问速度极慢或无法访问。如果有国内的镜像站，就可以利用国内的网络资源，提高下载速度和效率，就可以极大提升用户使用开源软件的使用体验。同时，如果在校内建立镜像站，可以减轻出口带宽压力，降低校园网服务的负载。回报社区。同时提供镜像站服务可以对对开源社区提供支持，宣传开源精神，促进开源文化的发展。创建的面向校园网环境的镜像站，能够提供简易便捷的的使用体验，并且能够轻松接入后端数据，可以助力校园网开源镜像站的快速成型。同时，我们希望借此机会推广 Linux，以及宣传自由软件的价值。欢迎广大师生加入共同建设。（https://mirrors.zzu.edu.cn）
+
+<br/>
+
+## 目录结构
+
+
 ```
 ZzuOpenSourceMirror
 ├─assets
 │  ├─css
-│  │  └─vendor
+│  │  ├─vendor
+│  │  ├─main.css
+│  │  └─main.css.map
 │  ├─img
-│  │  ├─demo
-│  │  └─logo
+│  │  ├─logo
+│  │  └─favicon.ico
 │  ├─js
-│  │  └─vendor
+│  │  ├─vendor
+│  │  └─function.js
 │  └─scss
-│      ├─frameworks
-│      │  └─bootstrap
-│      │      └─source
-│      │          ├─mixins
-│      │          └─utilities
-│      ├─plugins
-│      ├─base
-│      ├─modules
-│      └─layout
+│      ├─1-frameworks
+│      ├─2-plugins
+│      ├─3-base
+│      ├─4-modules
+│      └─5-layout
 └─docs
-└─docs.html
-└─index.html
-└─info.html
-└─login.html
-└─mirrors.html
+│  ├─debian.html
+│  ├─fydeos.html
+│  ├─kali.html
+│  ├─template.html
+│  └─ubuntu.html
+├─docs.html
+├─index.html
+├─info.html
+├─login.html
+├─mirrors.html
 └─README.html
 ```
+<br/>
 
-[样例](https://github.com/Cerber2ol8/ZzuOpenSourceMirror) &nbsp; | &nbsp; [下载](https://github.com/Cerber2ol8/ZzuOpenSourceMirror/archive/refs/heads/main.zip)
+## 项目预览
+![](./assets/img/logo/screenshot1.png)<br/>
+![](./assets/img/logo/screenshot2.png)<br/>
+![](./assets/img/logo/screenshot3.png)<br/>
+![](./assets/img/logo/screenshot4.png)<br/>
+![](./assets/img/logo/screenshot5.png)<br/>
+![](./assets/img/logo/screenshot6.png)<br/>
 
-[![screenshot](./assets/img/logo/screenshot1.png)](https://github.com/Cerber2ol8/ZzuOpenSourceMirror)
+<br/>
 
-## Getting Started
+## 技术栈
 
-[文档](https://github.com/Cerber2ol8/ZzuOpenSourceMirror/tree/main/docs).
+**Bootstrap + HTML5 + CSS + JS**
 
-## Built With
+<br/>
 
-* [Bootstrap](https://github.com/twbs/bootstrap)
-* [Gulp](https://gulpjs.com/)
+<br/>
 
-## Copyright
+## 贡献者
 
-Powered BY <a target="_blank" href="https://mirrors.zzu.edu.cn">ZZU OpenSource Mirror</a>		
+- Cerber2ol8
 
-Supported BY <a target="_blank" href="https://www.zzu.edu.cn">Zhengzhou University</a>
+- Cyberloafing
 
+- cks1999
 
-<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-## Contribute
-
-Let's make this even better!
-
-- [Clone the repo](https://github.com/Cerber2ol8/ZzuOpenSourceMirror.git).
-- Create a branch off of master and give it a meaningful name (e.g. my-new-feature).
-- Open a pull request on GitHub and describe the feature or fix.
-
-Thank you for your support!
+<br/>
