@@ -1,7 +1,6 @@
 <h1 align="center">ZzuOpenSourceMirror</h1>
 <br/>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 项目说明
 
@@ -14,35 +13,35 @@
 
 ```
 ZzuOpenSourceMirror
-├─assets
-│  ├─css
+├─assets             资源文件
+│  ├─css             css文件
 │  │  ├─vendor
 │  │  ├─main.css
 │  │  └─main.css.map
-│  ├─img
+│  ├─img             图片资源
 │  │  ├─logo
 │  │  └─favicon.ico
-│  ├─js
+│  ├─js              js文件
 │  │  ├─vendor
 │  │  └─function.js
-│  └─scss
+│  └─scss            scss文件
 │      ├─1-frameworks
 │      ├─2-plugins
 │      ├─3-base
 │      ├─4-modules
 │      └─5-layout
-└─docs
+└─docs               网站文档页面
 │  ├─debian.html
 │  ├─fydeos.html
 │  ├─kali.html
 │  ├─template.html
 │  └─ubuntu.html
-├─docs.html
-├─index.html
-├─info.html
-├─login.html
-├─mirrors.html
-└─README.html
+├─docs.html          网站使用帮助页
+├─index.html         网站首页
+├─info.html          网站关于页
+├─login.html         网站登陆页面
+├─mirrors.html       镜像列表页
+└─README.html        README文件
 ```
 <br/>
 
