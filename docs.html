@@ -82,7 +82,6 @@ NAVBAR (remove topnav if you don't want changed nav background on scroll)
 				<span class="nav-link" href="#">
 				<a class="btn btn-cyan btn-round shadow-sm"  href="./login.html" >
 									注册/登录 
-					<a href="https://github.com/wowthemesnet/Anchor-Bootstrap-UI-Kit/archive/master.zip" class="downloadzip" class="hidden"></a>
 				</a>
 				</span>
 				</li>
@@ -241,6 +240,31 @@ $('.popover-dismiss').popover({
   trigger: 'focus'
 })
 </script>
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLongTitle">近期动态通知</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span>×</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<h5>停机通知</h5>
+				<p>
+					将于2023/4/1日停机，预计维护3天！
+				</p>
 
+				<h5>Docker-ce镜像即将上线</h5>
+				<p>
+					Docker-ce镜像在停机维护后会上线，文档正在完善中
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
 </html>
